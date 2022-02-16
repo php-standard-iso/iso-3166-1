@@ -16,7 +16,10 @@
   },
   "config": {
     "process-timeout": 600,
-    "sort-packages": true
+    "sort-packages": true,
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
   },
   "authors": [
     {
@@ -35,13 +38,13 @@
     }
   },
   "require": {
-    "php": "^7.3 || ~8.0.0"
+    "php": "^7.0 || ~8.0.0 || ~8.1.0"
   },
   "require-dev": {
-    "laminas/laminas-coding-standard": "^2.3",
-    "phpunit/phpunit": "^9.5",
-    "psalm/plugin-phpunit": "^0.15.1",
-    "vimeo/psalm": "^4.5.2"
+    "laminas/laminas-coding-standard": "*",
+    "phpunit/phpunit": "*",
+    "psalm/plugin-phpunit": "*",
+    "vimeo/psalm": "*"
   },
   "scripts": {
     "check": [
