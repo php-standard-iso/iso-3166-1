@@ -42,9 +42,7 @@
   },
   "require-dev": {
     "laminas/laminas-coding-standard": "*",
-    "phpunit/phpunit": "*",
-    "psalm/plugin-phpunit": "*",
-    "vimeo/psalm": "*"
+    "phpunit/phpunit": "*"
   },
   "scripts": {
     "check": [
