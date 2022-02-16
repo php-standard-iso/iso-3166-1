@@ -41,7 +41,9 @@
     "php": "^7.0 || ~8.0.0 || ~8.1.0"
   },
   "require-dev": {
-    "phpunit/phpunit": "^6.5.14 || ^7.5.20 || ^8.5.23 || ^9.5.13 || dev-master"
+    "phpunit/phpunit": "*",
+    "vimeo/psalm": "*",
+    "squizlabs/php_codesniffer": "*"
   },
   "scripts": {
     "check": [
